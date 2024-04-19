@@ -1,0 +1,226 @@
+.main_container {
+  display: flex;
+  gap: 2%;
+}
+.image_main img {
+  margin-left: 50%;
+  height: 100%;
+}
+
+.lower_cont {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 14%;
+}
+
+.form_cont {
+  border: 1px solid #ccc;
+  width: 50%;
+  height: 62%;
+  padding: 15px 0px;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.insta_logo {
+  display: flex;
+  justify-content: center;
+}
+.insta_logo img {
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 22px;
+}
+.form_group {
+  margin-bottom: 15px;
+  width: 60%;
+}
+
+.form_group input {
+  width: 120%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 8px 5px;
+  margin-left: 37px;
+}
+.signup_button {
+  width: 77%;
+  height: 30px;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 35px;
+}
+
+.text-between-lines {
+  text-align: center;
+  position: relative;
+  margin-top: 30px;
+}
+
+.text-between-lines::before {
+  content: "";
+  height: 2px;
+  width: 50%;
+  background-color: #818181;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 200px;
+  z-index: -3;
+  margin-right: 48px;
+}
+
+.text-between-lines::after {
+  content: "";
+  height: 2px;
+  width: 50%;
+  background-color: #818181;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 200px;
+  z-index: -2;
+  margin-left: 40px;
+}
+
+.text-between-lines span {
+  background-color: white;
+  padding: 0 20px;
+}
+
+.facebookicon {
+  margin-top: 25px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  width: 50%;
+  margin-left: 23%;
+  color: blue;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.forget_password {
+  text-align: center;
+  cursor: pointer;
+  width: 35%;
+  margin-left: 32%;
+  font-size: 13px;
+}
+
+.signup_cont {
+  border: 1px solid #ccc;
+  width: 50%;
+  height: 10%;
+  position: relative;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.signup_cont p {
+  text-align: center;
+  margin-top: 17px;
+}
+.signup_cont span {
+  color: blue;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.appstore {
+  width: 322px;
+  margin-left: 1.5%;
+  margin-top: 0px;
+}
+.appstore p {
+  text-align: center;
+}
+.appstore div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.appstore div img {
+  width: 35%;
+  cursor: pointer;
+}
+
+.listitem ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 90px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 10px;
+}
+
+/* Media Quries */
+
+@media screen and (min-width: 0px) and (max-width: 375px) {
+  .lower_cont {
+    margin-top: 10%;
+    margin-left: 4%;
+  }
+
+  .image_main img {
+    display: none;
+  }
+
+  .form_cont {
+    width: 87%;
+  }
+
+  .signup_cont {
+    width: 87%;
+  }
+
+  .appstore div img {
+    width: 30%;
+    cursor: pointer;
+  }
+  .footer,
+  .listitem {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 430px) {
+  .lower_cont {
+    margin-top: 40%;
+    margin-left: 4%;
+  }
+
+  .image_main img {
+    display: none;
+  }
+
+  .form_cont {
+    width: 90%;
+  }
+
+  .signup_cont {
+    width: 90%;
+  }
+
+  .appstore div img {
+    width: 30%;
+    cursor: pointer;
+  }
+
+  .footer,
+  .listitem {
+    display: none;
+  }
+}
