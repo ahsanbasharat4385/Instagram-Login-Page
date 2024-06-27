@@ -27,3 +27,8 @@ Contributions are welcome! If you find any bugs or have ideas for enhancements, 
   <li>Built with HTML and CSS.</li>
   <li>To view Instagram login page open this link " https://ahsanbasharat4385.github.io/Instagram-Login-Page/" on your local machine </li>
 </ul>
+
+# Contact
+<p> <b>Name: Ahsan Basharat</b></p>
+<p><b>Contact No.: +923014385464</b></p>
+<p><b>Gmail: ahsanbasharat4385@gmail.com</b></p>
