@@ -25,5 +25,5 @@ Contributions are welcome! If you find any bugs or have ideas for enhancements, 
 # Acknowledgements
 <ul>
   <li>Built with HTML and CSS.</li>
-  <li>To view Instagram login page open index.html file on your local machine </li>
+  <li>To view Instagram login page open this link " https://ahsanbasharat4385.github.io/Instagram-Login-Page/" on your local machine </li>
 </ul>
